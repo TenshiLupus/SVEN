@@ -33,3 +33,8 @@ npm run dev
 Notes
 Ensure Node.js and npm are installed before running the frontend.
 Ensure the Python virtual environment is properly set up before starting the backend.
+
+---
+**Recorded demonstration**
+A recorded short demonstration of the artefact in action is available at: 
+https://youtube.com/shorts/6Vz0KpY56D4?feature=share
