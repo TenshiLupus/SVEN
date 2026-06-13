@@ -30,6 +30,10 @@ Then start the Vite development server:
 npm run dev
 ```
 ---
+4. Local browser address
+After the frontend has initiated, navigate to http://localhost:5173/ in your browser to interact with the artefact interface to begin translating Swedish speech to English
+   
+---
 Notes
 Ensure Node.js and npm are installed before running the frontend.
 Ensure the Python virtual environment is properly set up before starting the backend.
