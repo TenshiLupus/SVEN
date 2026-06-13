@@ -1,0 +1,12 @@
+# Python
+venv/
+.venv/
+__pycache__/
+
+# HuggingFace / Whisper models
+cache_models/
+models/
+
+# Caches
+*.pyc
+.pytest_cache/
