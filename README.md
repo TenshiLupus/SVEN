@@ -9,11 +9,19 @@ In a terminal, run:
 source .venv/Scripts/activate
 ```
 ---
-2. Start the backend (if applicable)
-Make sure your backend server is running before starting the frontend.
+2. After the environment is activated run the backend with: 
+```bash
+uvicorn server_interview:app --host 0.0.0.0 --port 8000
+```
+---
+2a. if some dependecies are missing install them with:
+```bash
+pip install -r requirements.txt
+```
+
 ---
 3. Start the frontend
-In another terminal, navigate to the frontend project:
+In another terminal(Make sure the backend is started as well), navigate to the frontend project:
 ```bash
 cd captions-app
 ```
